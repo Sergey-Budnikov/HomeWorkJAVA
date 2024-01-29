@@ -1,0 +1,8 @@
+.git
+.vs
+.vscode
+data.txt
+Lecture
+log.txt
+log.txt.lck
+Seminar

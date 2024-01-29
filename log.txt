@@ -1,0 +1,6 @@
+дек. 29, 2023 1:41:46 PM Seminar.Sem2_005 writeArrToFile
+INFO: Data saved!
+дек. 29, 2023 1:42:01 PM Seminar.Sem2_005 writeArrToFile
+INFO: Data saved!
+дек. 29, 2023 1:42:09 PM Seminar.Sem2_005 writeArrToFile
+INFO: Data saved!
