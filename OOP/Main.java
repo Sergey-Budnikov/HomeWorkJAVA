@@ -1,6 +1,8 @@
 package OOP;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
@@ -11,7 +13,13 @@ public class Main {
         //System.out.println(cat.name);
         cat.setIllness(new Illness(null));
         System.out.println(cat.getIllness());
-        Dog dog = new Dog("Персик", LocalDate.of(2020, 03, 11), new Illness("Лишай"));
-        System.out.println(dog.getType());
+        Animal dog = new Dog("Персик", LocalDate.of(2020, 03, 11), new Illness("Лишай"));
+        System.out.println(dog.illness);
+        List<Animal> list = new ArrayList<>();
+        list.add(dog);
+        list.add(cat);
+        list.add(new Bird("Ласточка", LocalDate.of(2020,03,20),new Illness("Лишай"), 2));
+        System.out.println(list);
+        dog.lifeCycle();
     }
 }
