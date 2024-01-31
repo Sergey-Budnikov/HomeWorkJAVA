@@ -68,4 +68,16 @@ public class Animal {
     public String toString() {
         return String.format("name =%s, birthday =%s, illness =%s", name, birthDay, illness);
     }
+
+    // Доиашнее задание
+
+    void toGo() {
+        System.out.println(getType() + " ходит");
+    }
+    void fly() {
+        System.out.println(getType() + " летает");
+    }
+    void swim() {
+        System.out.println(getType() + " плавает");
+    }
 }

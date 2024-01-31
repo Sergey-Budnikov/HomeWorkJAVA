@@ -21,5 +21,7 @@ public class Main {
         list.add(new Bird("Ласточка", LocalDate.of(2020,03,20),new Illness("Лишай"), 2));
         System.out.println(list);
         dog.lifeCycle();
+        Animal turtle = new Turtle("Miki", LocalDate.of(20, 05, 21), new Illness("Ветрянка"));
+        turtle.fly();
     }
 }
